@@ -1,34 +1,34 @@
 body {
-  font-family: sans-serif;
-  margin: 2em;
-  color: #3d3d3d;
+    font-family: sans-serif;
+    margin: 2em;
+    color: #3d3d3d;
 }
 
 p {
-  margin:2px;
+    margin:2px;
 }
 
 textarea {
-  font-size:0.7em;
+    font-size:0.7em;
 }
 
 section {
-  margin: 1em 0;
+    margin: 1em 0;
 }
 
 video {
-  display: block;
-  transform: rotateY(180deg);
+    display: block;
+    transform: rotateY(180deg);
 }
 
 .videoView {
-  position: relative;
-  width: 48vw;
+    position: relative;
+    width: 48vw;
 }
 
 #output_canvas {
-  z-index: 1;
-  position: absolute;
-  pointer-events: none;
-  transform: rotateY(180deg);
+    z-index: 1;
+    position: absolute;
+    pointer-events: none;
+    transform: rotateY(180deg);
 }

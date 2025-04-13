@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-A-Gesture</title>
+    <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
+  <script type="module" crossorigin src="./assets/index-DjmaNBBm.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BFSLpeiI.css">
+</head>
+
+<body>
+<div id="header">
+    <h1>Whack-A-Gesture</h1>
+    <p>Mimic and match the emoji's to score points!</p>
+</div>
+
+<nav id="nav">
+    <button id="webcamButton">START WEBCAM</button>
+    <button id="startButton">START GAME</button>
+    <button id="restartButton">RESTART</button>
+    <div id="score">SCORE: 0</div>
+    <div id="lives">LIVES: 3</div>
+</nav>
+
+<div id="game">
+    <div id="prompt">
+
+    </div>
+</div>
+
+<div class="videoView">
+    <video id="webcam" muted autoplay playsinline></video>
+    <canvas id="output_canvas"></canvas>
+
+</div>
+</body>
+
+</html>
