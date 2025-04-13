@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 /** @type {import('vite').UserConfig} */
 
 export default defineConfig({
-    base: "",
+    base: "https://wardvanassche.github.io/PRG08GAME/",
 
     build: {
         outDir: 'docs',
